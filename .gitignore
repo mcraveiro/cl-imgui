@@ -282,4 +282,4 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
-.qlot
+.qlot/
