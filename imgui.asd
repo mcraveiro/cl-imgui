@@ -13,7 +13,7 @@
     ((:module imgui-lib
       :pathname "cimgui"
       :components
-      ((:static-file "nk-lib.h")))
+      ((:static-file "cimgui.h")))
 
      (:module imgui-src
        :pathname "src"

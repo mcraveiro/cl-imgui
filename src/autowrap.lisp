@@ -1,7 +1,7 @@
 (cl:in-package :imgui-ffi)
 
 (autowrap:c-include
- '(imgui imgui-lib "imgui-lib.h")
+ '(imgui imgui-lib "cimgui.h")
   :accessor-package :imgui-ffi.acc
   :function-package :imgui-ffi.fns
   :spec-path '(imgui imgui-lib)

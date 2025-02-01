@@ -11,9 +11,9 @@
 
 (eval
 `(cffi:define-foreign-library imgui
-  (:darwin    "imgui.so"  :search-path ,(asdf-path 'imgui 'imgui-lib))
-  (:unix      "imgui.so"  :search-path ,(asdf-path 'imgui 'imgui-lib))
-  (:windows   "imgui.dll" :search-path ,(asdf-path 'imgui 'imgui-lib))
-  (t          "imgui.so"  :search-path ,(asdf-path 'imgui 'imgui-lib))))
+  (:darwin    "cimgui.so"  :search-path ,(asdf-path 'imgui 'imgui-lib))
+  (:unix      "cimgui.so"  :search-path ,(asdf-path 'imgui 'imgui-lib))
+  (:windows   "cimgui.dll" :search-path ,(asdf-path 'imgui 'imgui-lib))
+  (t          "cimgui.so"  :search-path ,(asdf-path 'imgui 'imgui-lib))))
 
 (cffi:use-foreign-library imgui)
