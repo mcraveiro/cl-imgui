@@ -2,6 +2,7 @@
 
 (autowrap:c-include
  '(imgui imgui-lib "cimgui.h")
+  ;; :use-libffi t  ;; Force struct return support
   :accessor-package :imgui-ffi.acc
   :function-package :imgui-ffi.fns
   :spec-path '(imgui imgui-lib)

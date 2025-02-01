@@ -5,7 +5,7 @@
   :author "Justin Patera <serialhex@gmail.com>"
   :license "MIT"
 
-  :depends-on (:cl-autowrap
+  :depends-on (:cl-autowrap/libffi
                :sdl2
                :cl-opengl)
 
